@@ -6,7 +6,6 @@ The Dataset Analyzer App is a powerful tool designed to help users analyze and v
 ⚖️ Class Imbalance Detection: Automatically checks for class imbalances in your dataset and displays class distribution across different folders or CSV target columns.
 📊 Interactive Visualizations: Includes sunburst charts and bar charts to visualize the dataset's structure and class distribution.
 🗂️ Flexible Dataset Support: Supports datasets in various formats:
-📦 Kaggle: Download and analyze Kaggle datasets directly using the Kaggle API.
 📂 ZIP Archives: Upload and extract image datasets stored in ZIP or TAR.GZ formats.
 📑 CSV Files: Process CSV files for class distribution analysis and data exploration.
 🖼️ Sample Image Display: Displays random sample images from the dataset for preview.
@@ -17,6 +16,9 @@ The Dataset Analyzer App is a powerful tool designed to help users analyze and v
 📥 Kaggle Dataset Download: Enter the Kaggle dataset name, and the app will download and unzip the dataset to a temporary folder for analysis.
 📤 ZIP Archive Upload: Upload a ZIP/TAR.GZ archive containing images. The app will extract and process the images for class distribution.
 📂 CSV File Upload: Upload a CSV file containing class labels. The app will identify the target column dynamically and generate a class distribution report.
+
+Try
+  https://dataset-analyzer-app.streamlit.app/
 
 💻 Technologies:
 Streamlit: For creating the web interface.
